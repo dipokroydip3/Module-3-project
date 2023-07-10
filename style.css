@@ -92,3 +92,42 @@ span {
       cursor: pointer;
       background-color: white;
 }
+            /* service section start */
+#our-service {
+      width: 100%;
+}  
+.service-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px;
+}    
+.service-container .item-box {
+    max-width: 300px;
+    background-color: lightgray;  
+    padding: 40px;
+    border-radius: 5px;
+} 
+.item-box .img i {
+      display: flex;
+      justify-content: center;
+      font-size: 70px;
+      padding: 20px;
+}
+.item-heading {
+      text-align: center;
+}    
+.btn-div {
+      display: flex;
+      justify-content: center;
+}
+.details {
+      text-align: center;
+      padding: 7px 18px;
+      border: none;
+} 
+.service-text {
+      text-align: center;
+      padding: 20px;
+      font-size: 40px;
+}
